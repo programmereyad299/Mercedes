@@ -1,5 +1,5 @@
-joblib
 numpy
+joblib
 scikit-learn
-streamlit
 tensorflow
+streamlit
