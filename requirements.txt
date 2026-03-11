@@ -1,5 +1,5 @@
 numpy
 streamlit
 joblib
-tensorflow
+tensorflow-cpu
 scikit-learn
