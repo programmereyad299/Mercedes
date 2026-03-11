@@ -2,6 +2,7 @@ import numpy as np
 import streamlit as st
 import joblib
 import tensorflow as tf
+tf.__version__
 
 st.set_page_config(page_title = "Mercedes Benz Stock Refined" , page_icon="🚗")
 st.title("Mercedes Benz Stock Refined 🚗💵")
@@ -55,6 +56,7 @@ if btn :
     pred = np.argmax(pred)  
     st.sidebar.info("Quarter :")
     st.sidebar.info(pred)
+
 
 
 
